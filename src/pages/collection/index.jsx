@@ -7,11 +7,10 @@ const Collection = () =>{
 
     return(
         <div>
-            <h1>My favorite films</h1>
             <Grid>
             {collection && collection.map((film, index) =>{
                 return(
-                    <Card key={index} film={film}/>
+                    <Card isRemovable={true} key={index} film={film}/>
                 )
             })}
             </Grid>

@@ -14,11 +14,10 @@ const Films = () =>{
 
     return(
         <div>
-            <h1>Films</h1>
             <Grid>
             {films && films.map((film, index) =>{
                 return(
-                    <Card key={index} film={film}/>
+                    <Card isRemovable={false} key={index} film={film}/>
                 )
             })}
             </Grid>

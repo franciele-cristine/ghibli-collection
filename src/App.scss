@@ -74,8 +74,17 @@ body{
         .favorite_button{
             border: none;
             font-size: 1.4rem;
+            background-color: transparent;
             &:hover{
                 color: #ff698e;
+            }
+        }
+        .remove_button{
+            border: none;
+            font-size: 1.4rem;
+            background-color: transparent;
+            &:hover{
+                color: #ad0000;
             }
         }
     }
